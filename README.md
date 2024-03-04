@@ -22,7 +22,7 @@
 
 - **Dataset**
 
-[Sleep Health and Lifestyle Dataset](https://github.com/naslita/Sleep-Disorder-Prediction/main/Dataset)
+[Sleep Health and Lifestyle Dataset](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data)
 
 ## **💻 Script 💻**
 
