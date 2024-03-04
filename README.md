@@ -18,23 +18,22 @@
 
 - **Libraries**
 
-[Requirements Text](https://github.com/naslita/Sleep-Disorder-Prediction/main/create-library)
+[Requirements Text](https://github.com/naslita/Sleep-Disorder-Prediction/main/Library)
 
 - **Dataset**
 
-[Marketing campaign](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign "Marketing campaign dataset from Kaggle")
+[Sleep Health and Lifestyle Dataset](https://github.com/naslita/Sleep-Disorder-Prediction/main/Dataset)
 
 ## **💻 Script 💻**
 
 **Open in Colab**
 
-- [Response Prediction Classification Marketing Campaign.ipynb](https://colab.research.google.com/github/nurimammasri/Marketing-Campaign-Model-Prediction-by-Datalicious/blob/main/Response%20Prediction%20Classification%20Marketing%20Campaign.ipynb)
+- [Sleep-Disorder-Prediction.ipynb](https://github.com/naslita/Sleep-Disorder-Prediction/main/Finpro_Anastasia Talia Dwimantari.ipynb))
 
 ## **📍 Table of Content 📍**
 <!--ts-->
 * **Business Understanding**
     * [Problem Statement](#-business-understanding-)
-    * [Roles](#-roles)
     * [Goals](#-goals)
     * [Objectives](#-objectives)
     * [Business Metrics](#-business-metrics)
