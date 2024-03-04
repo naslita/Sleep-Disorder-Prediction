@@ -1,6 +1,6 @@
 # **🌟 Sleep Disorder Prediction 🌟**
 
-<img src="https://raw.githubusercontent.com/nurimammasri/Marketing-Campaign-Model-Prediction-by-Datalicious/main/assets/banner.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Sleep Disorder Bg.png">
 
 ## **⚙ Work Environment ⚙**
 
@@ -64,89 +64,35 @@
 
 ### **📌 Problem Statement**
 
-**Lotto Mart** adalah sebuah supermarket yang bergerak dibidang retail,  menjual berbagai jenis produk seperti Fish, Meat, Fruits, Sweet Products, Wines, dan Gold Products. Selama 6 bulan terakhir,  Marketing Team melakukan campaign berupa pemberian discount vouchers kepada semua customer melalui  Broadcast Message. Namun, setelah campaign  dilakukan, justru Lotto Mart menghadapi beberapa permasalahan sebagai berikut :
-- **Response rate** dari marketing campaign yang dilakukan rendah yaitu sekitar 14.91%
-- **Inefficient Cost** dalam melakukan marketing campaign
-- **Profit tidak sebanding** dengan cost yang dikeluarkan
+**Sleep Disorder** encompass conditions stemming from unhealthy sleep habits and lifestyles. Neglecting proper sleep can pose significant risks to our health and well-being, as sleep plays a pivotal role in maintaining overall health. Research from the National Heart, Lung, and Blood Institute of the National Institutes of Health indicates that between 50 to 70 million American adults grapple with irregular sleep patterns or suffer from disorders like insomnia and sleep apnea, underscoring a prevalent issue in our society.
 
-Berdasarkan hal tersebut,  Marketing Team meminta tim data untuk menganalisis permasalahan yang terjadi.  Selanjutnya perusahaan ingin membuat marketing campaign yang tepat sasaran  sesuai dengan **karakteristik customer**. Strategi ini diharapkan  mampu **meningkatkan response rate**,  **meminimalisasi cost**, dan kemudian **meningkatkan profit**
-
-### **📌 Roles**
-
-Sebagai **tim data** di Supermarket Lotto Mart, untuk menganalisis keberhasilan marketing campaign selanjutnya. Berikut adalah beberapa roles beserta PIC yang berkontribusi dalam menyelesaikan permasalahan di Lotto Mart:
-
-- **Lead Data Science**
-
-    Sebagai koordinator project
-
-    PIC: `Nur Imam Masri`
-
-- **Machine Learning Engineer**
-
-    Membuat model dan evaluasi Machine Learning
-    
-    PIC: `Prasidya Bagaskara` dan `Moh. Harwin Prayoga`
-    
-- **Data Engineer**
-
-    Melakukan Data Preparation, Cleaning, dan    
-    Exploratory Data Analysis (EDA)
-
-    PIC: `M Rayhan Azzindani` dan `M. Ifzal Asril`
-
-- **Business Analyst**
-
-    Membuat insight business
-
-    PIC: `Riskiyatul Hasanah` dan `Christine`
-
-- **Data Analyst**
-
-    Membuat dashboard
-
-    PIC: `Siti Hajjah Mardiah` dan `Astuti Rahmawati`
-
+Drawing from the aforementioned facts, **adhering to a balanced diet**, **maintaining regular exercise**, and **effectively managing stress levels emerge** as pivotal strategies for preventing sleep disorders.
 
 ### **📌 Goals**
 
-Perusahaan ingin meningkatkan **response rate** dan  meminimalisasi **marketing campaign cost** sehingga dapat memaksimalkan **profit**. 
+- Discover factors impacting sleep health and lifestyle for detecting signs of sleep disorders.
+- Predict the likelihood of individuals experiencing sleep disorders using their sleep health and lifestyle data.
+- Identify and address sleep-related issues, especially in healthcare.
+- Obtain the optimal model for predicting sleep disorders. 
 
 
 ### **📌 Objectives**
 
-Membuat classification model untuk **memprediksi kelompok customer yang akan merespon campaign** agar dapat **meminimalisasi biaya pemasaran dan memaksimalkan keuntungan** pada campaign marketing berikutnya.
+Develop a classification model to **anticipate the primary factors contributing to sleep disorders**, **facilitating the prompt detection and prevention of such disorders**.
 
-
-### **📌 Business Metrics**
-
-- **Response Rate/RR**
-    
-    Persentase total customer response  terhadap  total delivered campaign
-    
-    _**Indicator  RR :**_ 30% is good ( Efti 2018).
-    
-    - **Net Profit Margin /NPM**
-    
-        Mengukur net profit dibanding penjualannya. Semakin besar NPM, maka kinerja marketing campaign semakin efektif dan efisien (Handayani,  Winarningsih  2020).  
-
-        _**Indicator NPM :**_ 5% is low, 10-19% is average, 20% is good (Jayathilaka 2020).
-    
-    - **Return of Investment /ROI**
-    
-        CLV (customer lifetime value)) dibagi CAC((customer acquisition cost).  Sebagai indikator kinerja perusahaan dan pembuatan keputusan  para investor. 
-
-        _**Indicator ROI :**_ 3:1 to 5:1 is good (Manzer  2017).  
-        
 **📝 References :**
 
-- Efti S.  2018. Sales Benchmarks: The 30/50 rule for cold emailing & cold calling. diakses 20 Mei 2023. https://blog.close.com/sales-benchmarks/ 
+1. Understanding Blood Pressure Readings: [https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings](https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings)
 
-- Handayani N,  Winarningsih S. 2020. The Effect of Net Profit Margin and Return on Equity Toward Profit Growth. Moneter-Jurnal Akuntansi Dan Keuangan 7(2): 198-204. https://doi.org/10.31294/moneter.v7i2.8701.
+2. Sleep Apnea Statistics: [https://www.ncoa.org/adviser/sleep/sleep-apnea-statistics/](https://www.ncoa.org/adviser/sleep/sleep-apnea-statistics/)
 
-- Jayathilaka AK. 2020. Operating Profit and Net Profit: Measurements of Profitability. Open Access Library Journal 7(12): 1-11. https://doi.org/10.4236/oalib.1107011.
+3. Physical Activity Basics for Adults: [https://www.cdc.gov/physicalactivity/basics/adults/index.htm](https://www.cdc.gov/physicalactivity/basics/adults/index.htm)
 
-- Manzer D. 2017. Five insights into measuring marketing ROI. diakses 20 Mei 2023. https://growswyft.com/five-insights-to-measure-your-roi/.
+4. The Basics of Decision Trees: [https://medium.datadriveninvestor.com/the-basics-of-decision-trees-e5837cc2aba7](https://medium.datadriveninvestor.com/the-basics-of-decision-trees-e5837cc2aba7)
 
+5. Classification in Decision Trees - A Step-by-Step CART (Classification and Regression Tree): [https://medium.com/analytics-vidhya/classification-in-decision-tree-a-step-by-step-cart-classification-and-regression-tree-8e5f5228b11e](https://medium.com/analytics-vidhya/classification-in-decision-tree-a-step-by-step-cart-classification-and-regression-tree-8e5f5228b11e)
+
+6. Heart Rate FAQ: [https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute.](https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute.)
 
 ## **🕹 Data Description 🕹**
 
