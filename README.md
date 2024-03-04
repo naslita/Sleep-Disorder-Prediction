@@ -18,7 +18,7 @@
 
 - **Libraries**
 
-[Requirements Text](https://github.com/nurimammasri/Marketing-Campaign-Model-Prediction-by-Datalicious/blob/main/requirements.txt)
+[Requirements Text](https://github.com/naslita/Sleep-Disorder-Prediction/main/create-library)
 
 - **Dataset**
 
