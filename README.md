@@ -180,74 +180,139 @@ Observation Summary Categorical:
 #### **Change Normal Weight to be Normal**
 
 #### **Univariate and Bivariate Analysis**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/KDE Plot.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/KDE Plot.png">
 
+Observations:
+1. The true continuous numeric features, represented by all columns in the 'numericals' set, exhibit a certain level of symmetry, which is favorable. This suggests that there may be no need to transform them to approximate a normal distribution if we intend to use them for modeling purposes later on.
+
+2. Most dataset peaks are as follows:
+- Age: 42
+- Sleep duration: between 6.1-6.2 hours
+- Quality of sleep: scale of 8.5
+- Physical activity level: 48 minutes per day
+- Stress level: scale of 3.4
+- Heart rate: 67 beats per minute
+- Daily step count: 7900 steps per day
+- 
 #### **Handling Outlier**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Univariate.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Univariate.png">
 
+Obervation:
+1. There is 15 outlier in the `Heart Rate` column (value = 80-86)
+2. But the value is still reasonable (NOT that extreme), hence no need to handle speficically
+3. 
 ### **[Encoding](#-preprocessing)**
 
 ### **Imbalance & Standardization**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Oversampling.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Oversampling.png">
 
 ### **[Correlation Analysis](#-Heatmap)**
 
 ## **📌 Exploratory Data Analysis (EDA)**
 
 ### **Gender**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA Gender.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA Gender.png">
+*Female individuals experience a significantly higher prevalence of sleep apnea, with a 17.9% higher incidence compared to Male individuals. On the other hand, Male individuals tend to have a higher prevalence of insomnia by 11%, although this difference is not statistically significant compared to Female individuals. Therefore, it can be concluded that Female individuals are more vulnerable to experiencing sleep disorders, including both sleep apnea and insomnia.*
 
 ### **Occupation**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA Occupation.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA Occupation.png">
 
+Observation:
+
+1. It can be seen that the condition of insomnia is most often found in salesperson jobs, 29 people, and 25 people in teacher jobs.
+2. It is known that the majority of Sleep Apnea sufferers work as nurses, numbering 61 people.
+3. None were most often found in the type of work: Doctors with 62 people, Engineers with 57 people and Lawyers with 42 people.
+   
 ### **Physical Activity Level**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA PAL.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA PAL.png">
+
+Individuals who engage in physical activity for 60-90 minutes per day tend to experience Sleep Apnea, while those who engage in physical activity for 45 minutes per day are more prone to Insomnia.
 
 ### **Quality of Sleep**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA QOS.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA QOS.png">
+
+The average sleep duration for individuals with Insomnia and Sleep Apnea ranges from 5.9 to 8.3 hours. Interestingly, there doesn't seem to be a significant difference between the two in terms of sleep quality.
 
 ### **Sleep Duration**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA SD.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA SD.png">
+Sleep duration significantly influences the occurrence of Sleep Apnea and Insomnia. There is a notable difference between individuals reporting "None" for sleep duration, which averages 1611.5, and those experiencing Sleep Apnea, which averages 548.5, and Insomnia, which averages 507.4.
 
 ### **Stress Level**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA SL.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA SL.png">
+High stress levels (7-8) significantly contribute to the occurrence of insomnia and sleep apnea, while even moderate stress levels (3-4) can predispose individuals to experience these sleep disorders.
 
 ### **Heart Rate**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA HR.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA HR.png">
 
 ### **Daily Steps**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA DS.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA DS.png">
 
 ### **BMI Category**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA BMI.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA BMI.png">
+
+It is evident that individuals classified under the BMI category 'overweight' exhibit the highest prevalence of both Sleep Apnea and Insomnia.
+For those categorized as 'Normal' BMI, the occurrence of Insomnia is slightly higher than that of Sleep Apnea, although the difference is not significant.
+Similarly, among individuals classified as 'Obese', the prevalence of Sleep Apnea is slightly higher than that of Insomnia, but the difference is not significant.
 
 ### **Age**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA Age.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA Age.png">
+The possibility of sleep disorders, Insomnia is more common at ages over 44 years, and Sleep Apnea is more common at ages 50 years and over.
 
 ### **Blood Pressure**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA BP.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA BP.png">
 
 ## **💡Preprocessing💡**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Prepocessing.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Prepocessing.png">
 
 ### **Heatmap Correlation**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Headmap 1.png">
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Headmap 2.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Headmap 1.png">
+
+It can be stated that there is a positive correlation between Quality of Sleep and Sleep Duration then positive coreelation between Stress Level and Heart Rate . And there is a negative correlation between Quality of Sleep, Sleep Duration with Stress Level. This is evident as higher sleep duration tends to coincide with better sleep duration and higher stress levels.
+and there is a positive correlation between `Systolic BP` and `Diastolic BP`.
+
+Next, we will remove interrelated correlations and identify the highest value that shows a positive correlation with sleep disorders!
+
+we have decided to prioritize maintaining `Quality of Sleep`. Therefore, our focus is on reducing the `Stress Level` and `Sleep Duration`.
+and we have decided to prioritize maintaining `Diastolic BP`. Therefore, our focus is on reducing the `Systolic BP`.
+
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Headmap 2.png">
 
 ## **💡Modelling💡**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Hypertuning DTC.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Hypertuning DTC.png">
+
+Now in our Decision Tree Classifier model we had a very big improvement when compared to Logistic Regression, SVC, RFC, ABC, KNC, GNB and XGB, we had 88.4% recall score with the model being able to predict the 3 classes very well.
 
 ## **💡Evaluation💡**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/train test dtc.png">
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Confusion Matrix.png">
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/ROC Curve dtc.png">
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Learning Curve.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/train test dtc.png">
+
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Confusion Matrix.png">
+WE CAN SEE THAT A 3 X 3 CONFUSION MATRIX IS GENERATED:
+
+*ROW 1, WE SEE THAT OUT OF THE 66 TOTAL (61+3+2) NONE DATA POINTS, 61 OF THEM WERE PREDICTED CORRECTLY. 3 TEST POINTS WERE INCORRECTLY CLASSIFIED AS SLEEP APNEA AND 2 TEST POINT WAS INCORRECTLY CLASSIFIED AS INSOMNIA.
+
+*ROW 2, WE SEE THAT OUT OF 24 TOTAL (21+2+1) SLEEP APNEA DATA POINTS, 21 OF THEM WERE PREDICTED CORRECTLY. 2 TEST POINTS WERE INCORRECTLY CLASSIFIED AS NONE AND 1 TEST POINT WAS INCORRECTLY CLASSIFIED AS INSOMNIA.
+
+*ROW 3, WE SEE THAT OUT OF THE 23 TOTAL (18+4+1) INSOMNIA DATA POINTS, 18 OF THEM WERE PREDICTED CORRECTLY. 4 TEST POINTS WERE INCORRECTLY CLASSIFIED AS NONE AND 1 TEST POINT WAS INCORRECTLY CLASSIFIED AS SLEEP APNEA.
+
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/ROC Curve dtc.png">
+
+ROC: The graph above is a graph that plots the true positive rate (TPR or sensitivity) against the false positive rate. ROC is calculated by changing the decision threshold(default0.5) and plotting TPR and FPR.
+AUC: refers to the area under the ROC curve
+
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Learning Curve.png">
+From the ROC-AUC curve and Learning Curve, the results of the Decision Tree Classifier Model look good, so even though the Recall values between Train and Test Data are slightly different, this does not indicate overfitting.
 
 ### **Feature Importance**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Feature Importance.png">
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Shap Method.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Feature Importance.png">
+
+Based on the Feature Importance visualization, there are 3 features that really influence the characteristics of Sleep Disorder, namely Physical Activity Level, BMI Category and Daily Steps where these three features are very closely related to lifestyle.
+
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Shap Method.png">
+Based on the Shap Method, there are 3 features that really influence the characteristics of Sleep Disorder, namely BMI Category, Diastolic BP  and Heart Rate where these three features are very closely related to Sleep Pattern.
 
 ## **💡Insight & Recommendation💡**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Recommendation 1.png">
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Recommendation 2.png">
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Recomendation 3.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Recommendation 1.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Recommendation 2.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Recomendation 3.png">
+
+
