@@ -279,7 +279,7 @@ and we have decided to prioritize maintaining `Diastolic BP`. Therefore, our foc
 
 ## **💡Modelling💡**
 <img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Hypertuning DTC.png">
-
+<img src="all model.png">
 Now in our Decision Tree Classifier model we had a very big improvement when compared to Logistic Regression, SVC, RFC, ABC, KNC, GNB and XGB, we had 88.4% recall score with the model being able to predict the 3 classes very well.
 
 ## **💡Evaluation💡**
