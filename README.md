@@ -262,7 +262,7 @@ The possibility of sleep disorders, Insomnia is more common at ages over 44 year
 <img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA BP.png">
 
 ## **💡Preprocessing💡**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Prepocessing.png">
+<img src="preprocessing.png">
 
 ### **Heatmap Correlation**
 <img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Headmap 1.png">
