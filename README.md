@@ -8,7 +8,7 @@
 
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 
-[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nurimammasri/Marketing-Campaign-Model-Prediction-by-Datalicious/blob/main/Response%20Prediction%20Classification%20Marketing%20Campaign.ipynb)
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](Finpro_Anastasia_Talia_Dwimantari.ipynb)
 
 - **Programming Language**
 
@@ -28,7 +28,7 @@
 
 **Open in Colab**
 
-- [Sleep-Disorder-Prediction.ipynb](https://github.com/naslita/Sleep-Disorder-Prediction/main/Finpro_Anastasia Talia Dwimantari.ipynb))
+- [Sleep-Disorder-Prediction.ipynb](Finpro_Anastasia_Talia_Dwimantari.ipynb)
 
 ## **📍 Table of Content 📍**
 <!--ts-->
