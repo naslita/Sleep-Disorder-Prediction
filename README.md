@@ -193,14 +193,14 @@ Observations:
 - Stress level: scale of 3.4
 - Heart rate: 67 beats per minute
 - Daily step count: 7900 steps per day
-- 
+  
 #### **Handling Outlier**
 <img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Univariate.png">
 
 Obervation:
 1. There is 15 outlier in the `Heart Rate` column (value = 80-86)
 2. But the value is still reasonable (NOT that extreme), hence no need to handle speficically
-3. 
+   
 ### **[Encoding](#-preprocessing)**
 
 ### **Imbalance & Standardization**
