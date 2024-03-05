@@ -36,10 +36,9 @@
     * [Problem Statement](#-business-understanding-)
     * [Goals](#-goals)
     * [Objectives](#-objectives)
-    * [Business Metrics](#-business-metrics)
-* **Data Preparation**
-    * [Data Description](#-data-description-)
 * **Data Understanding**
+    * [Data Description](#-data-description-)
+* **Data Preparation**
     * [Exploring Datasets](#-data-understanding-)
     * [Data Types Information](#-data-types-information)
     * [Statistical Summary](#-statistical-summary)
@@ -93,66 +92,39 @@ Develop a classification model to **anticipate the primary factors contributing 
 
 6. Heart Rate FAQ: [https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute.](https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute.)
 
-## **🕹 Data Description 🕹**
+## **🕹 Data Understanding 🕹**
 
-**Marketing Campaign ([link datasets](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign))**
-
-_Boost the profit of a marketing campaign_
-
-A response model can provide a significant boost to the efficiency of a marketing campaign by increasing responses or reducing expenses. 
-
-The objective is to predict who will respond to an offer for a product or service
+**Sleep Disorder ([link datasets](https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset/data))**
 
 **Dataset Description:**
 
-The training dataset contains `2240 samples`. Contains `28 features` and `1 target boolean` variable `"Response"` :
+The dataset contains `374 samples` and `13 features`, with `1 target` feature `"Sleep Disorder"`
 
-**Accepted/Responses Campaign**
+**METADATA**
 
-- `AcceptedCmp1` - 1 if customer accepted the offer in the 1st campaign, 0 otherwise
-- `AcceptedCmp2` - 1 if customer accepted the offer in the 2nd campaign, 0 otherwise
-- `AcceptedCmp3` - 1 if customer accepted the offer in the 3rd campaign, 0 otherwise
-- `AcceptedCmp4` - 1 if customer accepted the offer in the 4th campaign, 0 otherwise
-- `AcceptedCmp5` - 1 if customer accepted the offer in the 5th campaign, 0 otherwise
-- `Response (target)` - 1 if customer accepted the offer in the last campaign, 0 otherwise
-- `Complain` - 1 if customer complained in the previous 2 years
+- `Personal ID` - An identifier for each individual
+- `Gender` - The gender of the person (Male/Female)
+- `Age` - The age of the person in years
+- `Occupation` - The occupation or profession of the person
+- `Sleep Duration (hours)` - The number of hours the person sleeps per day.
+- `Quality of Sleep (scale: 1-10)` - A subjective rating of the quality of sleep, ranging from 1 to 10
+- `Physical Activity Level (minutes/day)` - The number of minutes the person engages in physical activity daily
+- `Stress Level (scale: 1-10)` - A subjective rating of the stress level experienced by the person, ranging from 1 to 10
+- `BMI Category` - The BMI category of the person (e.g., Underweight, Normal, Overweight)
+- `Blood Pressure (systolic/diastolic)` - The blood pressure measurement of the person, indicated as systolic pressure over diastolic pressure
+- `Heart Rate (bpm)` - he resting heart rate of the person in beats per minute.
+- `Daily Steps` - The number of steps the person takes per day.
+- `Sleep Disorder` - The presence or absence of a sleep disorder in the person (None, Insomnia, Sleep Apnea)
 
-**Customer Information**
+**Data Cleansing**
 
-- `ID` - Customer's id
-- `Year_Birth` - Customer's year of birth
-- `Education` - customer’s level of education
-- `Marital` - customer’s marital status
-- `Kidhome` - number of small children in customer’s household
-- `Teenhome` - number of teenagers in customer’s household
-- `Income` - customer’s yearly household income
-- `DtCustomer` - date of customer’s enrolment with the company
-- `Recency` - number of days since the last purchase
+**Encoding**
 
-**Sales Product Type**
+**Imbalance & Standardization**
 
-- `MntFishProducts` - amount spent on fish products in the last 2 years
-- `MntMeatProducts` - amount spent on meat products in the last 2 years
-- `MntFruits` - amount spent on fruits products in the last 2 years
-- `MntSweetProducts` - amount spent on sweet products in the last 2 years
-- `MntWines` - amount spent on wine products in the last 2 years
-- `MntGoldProds` - amount spent on gold products in the last 2 years
+**Correlation Analysis**
 
-**Number of Purchases per Type**
-
-- `NumDealsPurchases` - number of purchases made with discount
-- `NumCatalogPurchases` - number of purchases made using catalogue
-- `NumStorePurchases` - number of purchases made directly in stores
-- `NumWebPurchases` - number of purchases made through company’s web site
-- `NumWebVisitsMonth` - number of visits to company’s web site in the last month
-
-**Cost and Revenue**
-
-- `Z_CostContact = 3` (Cost to contact a customer)
-- `Z_Revenue = 11` (Revenue after client accepting campaign)
-
-
-# **💡 Data Understanding 💡**
+# **💡 Data Preparation 💡**
 
 ## **📌 Explore Datasets**
 
