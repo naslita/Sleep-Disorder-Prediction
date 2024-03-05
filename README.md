@@ -37,7 +37,6 @@ In our busy working lives, we often underestimate the significance of prioritizi
     * [Relate by Blood Pressure](#-blood-pressure)
 * **Preprocessing**
     * [Preprocessing](#-preprocessing)
-    <img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Preprocessing.png">
     * [Heatmap Correlation](#-heatmap-correlation)
 
 * **[Modelling](#-modelling)**
@@ -184,7 +183,7 @@ Observation Summary Categorical:
 #### **Change Normal Weight to be Normal**
 
 #### **Univariate and Bivariate Analysis**
-
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Statistical Summary Num.png">
 #### **Handling Outlier**
 
 
