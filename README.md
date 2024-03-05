@@ -18,7 +18,7 @@
 
 - **Libraries**
 
-[Requirements Text]()
+[Requirements Text](https://github.com/naslita/Sleep-Disorder-Prediction/main/Library)
 
 - **Dataset**
 
