@@ -211,7 +211,7 @@ Obervation:
 ## **📌 Exploratory Data Analysis (EDA)**
 
 ### **Gender**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/EDA Gender.png">
+<img src="EDA gender.png">
 *Female individuals experience a significantly higher prevalence of sleep apnea, with a 17.9% higher incidence compared to Male individuals. On the other hand, Male individuals tend to have a higher prevalence of insomnia by 11%, although this difference is not statistically significant compared to Female individuals. Therefore, it can be concluded that Female individuals are more vulnerable to experiencing sleep disorders, including both sleep apnea and insomnia.*
 
 ### **Occupation**
