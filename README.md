@@ -38,14 +38,11 @@ In our busy working lives, we often underestimate the significance of prioritizi
 * **Preprocessing**
     * [Preprocessing](#-preprocessing)
     * [Heatmap Correlation](#-heatmap-correlation)
-
 * **[Modelling](#-modelling)**
 * **[Evaluation](#-evaluation)**
 * **[Insight & Recommendation](#-insight-&-recommendation)**
 
 <!--te-->
-
-
 
 
 ## **💻 Script 💻**
@@ -183,17 +180,74 @@ Observation Summary Categorical:
 #### **Change Normal Weight to be Normal**
 
 #### **Univariate and Bivariate Analysis**
-<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/main/Statistical Summary Num.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/KDE Plot.png">
+
 #### **Handling Outlier**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Univariate.png">
 
-
-### **Encoding**
-
+### **[Encoding](#-preprocessing)**
 
 ### **Imbalance & Standardization**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Oversampling.png">
 
-
-### **Correlation Analysis**
-
+### **[Correlation Analysis](#-Heatmap)**
 
 ## **📌 Exploratory Data Analysis (EDA)**
+
+### **Gender**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA Gender.png">
+
+### **Occupation**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA Occupation.png">
+
+### **Physical Activity Level**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA PAL.png">
+
+### **Quality of Sleep**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA QOS.png">
+
+### **Sleep Duration**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA SD.png">
+
+### **Stress Level**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA SL.png">
+
+### **Heart Rate**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA HR.png">
+
+### **Daily Steps**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA DS.png">
+
+### **BMI Category**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA BMI.png">
+
+### **Age**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA Age.png">
+
+### **Blood Pressure**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/EDA BP.png">
+
+## **💡Preprocessing💡**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Prepocessing.png">
+
+### **Heatmap Correlation**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Headmap 1.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Headmap 2.png">
+
+## **💡Modelling💡**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Hypertuning DTC.png">
+
+## **💡Evaluation💡**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/train test dtc.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Confusion Matrix.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/ROC Curve dtc.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Learning Curve.png">
+
+### **Feature Importance**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Feature Importance.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Shap Method.png">
+
+## **💡Insight & Recommendation💡**
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Recommendation 1.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Recommendation 2.png">
+<img src="https://raw.github.com/naslita/Sleep-Disorder-Prediction/Master/Recomendation 3.png">
