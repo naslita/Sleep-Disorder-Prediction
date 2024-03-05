@@ -24,23 +24,23 @@ In our busy working lives, we often underestimate the significance of prioritizi
     * [Imbalance & Standardization](#-data-preparation-)
     * [Correlation Analysis](#-data-preparation-)
 * **Exploratory Data Analysis**
-    * [Relate By Gender](#-exploratory-data-anaylsis)
-    * [Relate By Occupation](#-occupation)
-    * [Relate By Physical Activity Level](#-physical-activity-level)
-    * [Relate By Quality of Sleep](#-quality-of-sleep)
-    * [Relate By Sleep Duration](#-sleep-duration)
-    * [Relate By Stress Level](#-stress-level)
-    * [Relate by Heart Rate](#-heart-rate)
-    * [Relate by Daily Steps](#-daily-steps)
-    * [Relate By BMI Category](#-bmi-category)
-    * [Relate by Age](#-age)
-    * [Relate by Blood Pressure](#-blood-pressure)
+    * [Relate By Gender](#-exploratory-data-anaylsis-)
+    * [Relate By Occupation](#-occupation-)
+    * [Relate By Physical Activity Level](#-physical-activity-level-)
+    * [Relate By Quality of Sleep](#-quality-of-sleep-)
+    * [Relate By Sleep Duration](#-sleep-duration-)
+    * [Relate By Stress Level](#-stress-level-)
+    * [Relate by Heart Rate](#-heart-rate-)
+    * [Relate by Daily Steps](#-daily-steps-)
+    * [Relate By BMI Category](#-bmi-category-)
+    * [Relate by Age](#-age-)
+    * [Relate by Blood Pressure](#-blood-pressure-)
 * **Preprocessing**
-    * [Preprocessing](#-preprocessing)
-    * [Heatmap Correlation](#-heatmap-correlation)
-* **[Modelling](#-modelling)**
-* **[Evaluation](#-evaluation)**
-* **[Insight & Recommendation](#-insight-&-recommendation)**
+    * [Preprocessing](#-preprocessing-)
+    * [Heatmap Correlation](#-heatmap-correlation-)
+* **[Modelling](#-modelling-)**
+* **[Evaluation](#-evaluation-)**
+* **[Insight & Recommendation](#-insight-&-recommendation-)**
 
 <!--te-->
 
